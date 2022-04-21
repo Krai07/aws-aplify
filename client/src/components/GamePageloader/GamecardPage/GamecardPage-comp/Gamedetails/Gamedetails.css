@@ -1,0 +1,130 @@
+*{
+    z-index: 1;
+    color: rgb(224, 224, 224);
+}
+.mai-cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: -12rem 12px 0px 12px ;
+    background-color: rgb(24, 23, 23);
+    
+}
+.gameimage{
+    display: flex;
+    flex-direction: column;
+}
+.clickme{
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    margin-top:12px ;
+}
+.image{
+   
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width:200px;
+   height: 300px;
+    margin: 1rem 2rem 1.5rem 2rem;
+    border-radius: 1rem;
+}
+.intro{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.name{
+    margin: 2rem 1rem 3rem 1rem;
+    padding: 12px;
+    background-color:rgb(255, 255, 255) ;
+    color: black;
+    
+}
+.description{
+    margin: 3rem 1.5rem;
+    padding: 0rem 0rem;
+    background: rgba(255, 255, 255, 0.329);
+ font-size: 24px;
+    padding:50px  20px;
+    margin-right:200px ;
+}
+
+.likes{
+    margin: -1rem 3.5rem;
+    width: 80px;
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.gameprice{
+    margin: 2rem 2rem 0rem 2rem;
+    font-size: 40px;
+
+}
+#disheart{
+    color: rgb(174, 0, 255);
+    margin-left: 12px;
+    padding-right: 12px;
+}
+.intro > hr{
+    margin: 3rem 1rem;
+}
+
+
+.download:hover{
+    
+    background-color: white;
+    color: black;
+    
+    transition: all 1s;
+}
+.download{
+   
+    text-decoration: none;
+    margin: 2rem 2rem;
+    border: solid white;
+    border-radius: 0.5rem;
+    color: white;
+    transition: transform 250ms;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.requirement{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem -2rem;
+}
+ul > li{
+    margin: 2rem 2rem;
+}
+
+.minreq{
+    margin: 0rem 3rem;
+    background: rgba(29, 190, 196, 0.493);
+    padding: 10px;
+}
+.checkclick{
+    margin: 7rem auto;
+}
+#heart{
+    margin-right:15px ;
+    color: rgb(240, 77, 77);
+    font-size: 23px;
+}
+.recreq{
+    background: rgba(200, 255, 0, 0.493);
+    padding: 10px;
+}
+.check{
+    padding: 1rem 1rem;
+    border: solid white;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    
+    color: white;
+    text-decoration: none;
+}
+.check:hover{
+    background-color: white;
+    color: black;
+}

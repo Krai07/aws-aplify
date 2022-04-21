@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Black Container */
+.containF{
+    height: 500px;
+    width: 1080px;
+    border-radius: 10px;
+    margin: 100px auto ;
+    color: aliceblue;
+    background-color: rgb(20, 20, 20);
+}
+/*  */
+.containD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+    
+}
+
+.left-handle h4{
+    text-align: center;
+    background: rgb(126, 230, 198);
+    color: #000;
+    padding: 10px;
+    width: 225px;
+    margin: auto;
+    border-radius: 20px;
+ 
+}
+.inputget{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+       
+}
+
+.inputo{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.searchdata{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+}
+
+.searchbu{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 255, 242, 0.541);
+    color: aliceblue;
+}
+.clearbu{
+    padding: 10px;
+    border: none;
+    background: rgb(255, 136, 0);
+    color: aliceblue;
+}
+.searchbu:hover{
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 1px 1px 6px rgb(255, 255, 255);
+    transition: all 500ms;
+}
+.clearbu:hover{
+    background-color: rgb(139, 62, 62);
+    color: aliceblue;
+    box-shadow: 1px 1px 6px rgb(255, 255, 255);
+    transition: all 500ms;
+
+}
+.read-only-section{
+    width: 250px;
+    margin: 15px 10px;
+    padding: 10px;
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+
+.right-handle h4{
+    text-align: center;
+    background: rgb(126, 230, 198);
+    color: #000;
+    padding: 10px;
+    width: 225px;
+    margin: auto;
+    border-radius: 20px;
+ 
+}
+.input-area-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:80px ;
+
+    
+}
+
+/* .fly{
+    position: absolute;
+    z-index: -999;
+
+} */
+.dataSeto{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 1px solid white;
+    background: #000;
+    padding: 5px;
+}
+.selected-value{
+    background: rgb(255, 244, 244);
+    color: #000;
+}
+
+.select{
+    width: 240px;
+    padding: 10px;
+    margin: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(53, 53, 53);
+    border: none;
+}
+.upload{
+    width: 100%;
+}
+.upload-button{
+    background: rgb(78, 78, 78);
+    color: white;
+    padding: 20px 40px;
+    margin:0px 450px;
+    border-radius: 15px;
+    border:0px 0px 1px 400ms #000;
+    
+}
+.next-go{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.linkto{
+    color: #0088ff;
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+   
+}

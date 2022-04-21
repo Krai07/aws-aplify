@@ -1,0 +1,227 @@
+{
+    "games": [
+    {
+ "id": 1,
+ "gamename": "Valorant",
+ "Description": "Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020.",
+ "price": "Free",
+ "Totallikes": 70,
+ "Gamelink": "https://playvalorant.com/en-us/",
+ "Category": {
+   "main": "Strategy",
+   "sub": "Multiplayer online battle arena(MOBA)"
+ },
+ "requirements": {
+   "mincpu": "Intel Pentium G4560",
+   "mingpu": "Intel HD Graphics 4600",
+   "minram": "4 GB",
+   "reccpu": "AMD Ryzen 3 1200",
+   "recgpu": "NVIDIA GeForce GT 730",
+   "recram": "6 GB"
+ }
+},{
+ "id": 2,
+ "gamename": "Pubg",
+ "Description": "PUBG: BATTLEGROUNDS is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.",
+ "price": "Paid",
+ "Totallikes": 52,
+ "Gamelink": "https://na.battlegrounds.pubg.com/",
+ "Category": {
+   "main": "Strategy",
+   "sub": "Multiplayer online battle arena(MOBA)"
+ },
+ "requirements": {
+   "mincpu": "Intel Core i5-4460",
+   "mingpu": "NVIDIA GeForce GTX 960",
+   "minram": "8 GB",
+   "reccpu": "Intel Core i5-6600K",
+   "recgpu": "NVIDIA GeForce GTX 1060-3GB",
+   "recram": "16 GB"
+ }
+},{
+ "id": 3,
+ "gamename": "GTA-V",
+ "Description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story.",
+ "price": "Paid",
+ "Totallikes": 40,
+ "Gamelink": "https://www.rockstargames.com/games/V",
+ "Category": {
+   "main": "Action",
+   "sub": "Action-Adventure game"
+ },
+ "requirements": {
+   "mincpu": "Intel Core i3-6100 Processor",
+   "mingpu": "AMD Radeon R7 360",
+   "minram": "4 GB",
+   "reccpu": "Intel Core i5-3470 Processor",
+   "recgpu": "AMD Radeon HD 7870",
+   "recram": "8 GB"
+ }
+},{
+ "id": 4,
+ "gamename": "FORTNITE",
+ "Description": "Fortnite is a survival game where 100 players fight against each other in player versus player combat to be the last one standing.",
+ "price": "Free",
+ "Totallikes": 47,
+ "Gamelink": "https://www.epicgames.com/fortnite/en-US/home",
+ "Category": {
+   "main": "Action",
+   "sub": "Battle royale game"
+ },
+ "requirements": {
+   "mincpu": "Intel Core i5-7300HQ",
+   "mingpu": "AMD Radeon R9 280",
+   "minram": "8 GB",
+   "reccpu": "Intel Core i7-8700",
+   "recgpu": "NVIDIA GeForce GTX 1080",
+   "recram": "16 GB"
+ }
+}
+],
+    "game": [
+  {
+        "id":1,
+        "Name":"Valorant",
+        "Specs":{
+            "RAM":[{
+                "name":"4 GB",
+                "Score":7
+            }],
+            "OS":[{
+                "name":"Windows 7/8/10-64-bit",
+                "Score":1
+            }],
+            "CPU":[{
+                "name":"Intel Core 2 Duo E8400",
+                "Score":-1
+            }],
+            "GraphicCard":[{
+                "name":"Intel HD 4000",
+                "Score":-1
+            }]
+        }
+    },
+    {
+        "id":2,
+        "Name":"Fortnite",
+        "Specs":{
+            "RAM":[{
+                "name":"8 GB",
+                "Score":0
+            }],
+            "OS":[{
+                "name":"Windows 7/8/10-64-bit",
+                "Score":0
+            }],
+            "CPU":[{
+                "name":"Intel Core i5-7300HQ",
+                "Score":111
+            }],
+            "GraphicCard":[{
+                "name":"AMD Radeon R9 280",
+                "Score":-1
+            }]
+        }
+    },
+    {
+        "id":3,
+        "Name":"PUBG",
+        "Specs":{
+            "RAM":[{
+                "name":"8 GB",
+                "Score":0
+            }],
+            "OS":[{
+                "name":"Windows 7/8/10-64-bit",
+                "Score":1
+            }],
+            "CPU":[{
+                "name":"Intel Core i5-4460",
+                "Score":-1
+            }],
+            "GraphicCard":[{
+                "name":"NVIDIA GeForce GTX 960",
+                "Score":-1
+            }]
+        }
+    },
+    {
+        "id":4,
+        "Name":"GTA-5",
+        "Specs":{
+            "RAM":[{
+                "name":"4 GB",
+                "Score":7
+            }],
+            "OS":[{
+                "name":"Windows 7/8/10-64-bit",
+                "Score":1
+            }],
+            "CPU":[{
+                "name":"Intel Core i3-6100 Processor",
+                "Score":-1
+            }],
+            "GraphicCard":[{
+                "name":" NVIDIA GeForce GTX 960",
+                "Score":-1
+            }]
+        }
+    }
+    ],
+    "RAM":[
+        {"name":"Select your choice","Score":0},
+        {"name":"128 MB","Score":1},
+        {"name":"256 MB","Score":2},
+        {"name":"512 MB","Score":3},
+        {"name":"1 GB","Score":4},
+        {"name":"2 GB","Score":5},
+        {"name":"3 GB","Score":6},
+        {"name":"4 GB","Score":7},
+        {"name":"5 GB","Score":8},
+        {"name":"6 GB","Score":9},
+        {"name":"8 GB","Score":10},
+        {"name":"10 GB","Score":11},
+        {"name":"12 GB","Score":12},
+        {"name":"14 GB","Score":13},
+        {"name":"16 GB","Score":14},
+        {"name":"32 GB","Score":15},
+        {"name":"64 GB","Score":16},
+        {"name":"96 GB","Score":17},
+        {"name":"128 GB","Score":18}
+        
+    ],
+    "GPU": [
+        {"name":"Select your choice","Score":0},
+        { "name": "NVIDIA GeForce RTX 3070", "Score": 1 },
+        { "name": "NVIDIA GeForce RTX 2080 Ti", "Score": 2 },
+        { "name": "NVIDIA Titan RTX", "Score": 3 },
+        { "name": "AMD Radeon RX 6800", "Score": 4 },
+        { "name": "NVIDIA GeForce RTX 3080", "Score": 5 }, 
+        { "name": "NVIDIA Quadro RTX A6000", "Score": 6 }, 
+        { "name": "AMD Radeon RX 6800 XT", "Score": 7 },
+        { "name": "AMD Radeon 6900 XT", "Score": 8 },
+        { "name": "NVIDIA GeForce RTX 3080 Ti", "Score": 9 },
+        {"name": "NVIDIA GeForce RTX 3090","Score": 10}
+    
+    ],
+    "CPU": [
+    {"name":"Select your choice","Score":0},
+    { "name": "Intel Core i9-10900 Processor", "Score": 1 },
+    { "name": "Intel Core i9-7980XE Processor", "Score": 2 },
+    { "name": "Intel Core i9-11900K Processor", "Score": 3 },
+    { "name": "Intel Core i9-9960X Processor", "Score": 4 },
+    { "name": "AMD Ryzen 9 3950X", "Score": 5 },
+    { "name": "AMD Ryzen 9 5900X", "Score": 6 },
+    { "name": "Intel Core i9-10850K Processor", "Score": 7 },
+    { "name": "Intel Core i9-10900KF Processor", "Score": 8 },
+    { "name": "Intel Core i9-10900K Processor", "Score": 9 },
+    { "name": "AMD Ryzen 9 5950X", "Score": 10 }
+
+    ],
+    "OS":[
+        {"name":"Select your choice","Score":0},
+        {"name":"windows 7/8/10 64-bit","Score":1},
+        {"name":"Linux","Score":2},
+        {"name":"Mac","Score":3}
+    ]
+}

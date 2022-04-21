@@ -1,0 +1,32 @@
+.search{
+    margin: 1.5rem 1.2rem;
+    padding: 0.3rem 0rem;
+    border-color: white;
+    border-radius: 5px;
+    background-color: #1f1d1d;
+    border-style: solid;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}   
+
+#searchbar > form > button{
+    margin: 0rem 1rem;
+    padding: 0.3rem 0.5rem;
+}
+.category > ul{
+    margin: 0rem 2rem;
+}
+.category > ul > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+    list-style-type: ">  ";
+}
+.category > ul >a > li:hover{
+    transform: scale(1.03);
+    color: white;
+}
+.category >ul > a > li{
+    transition: transform 250ms;
+    margin: 0.7rem 0.5rem;
+}
+

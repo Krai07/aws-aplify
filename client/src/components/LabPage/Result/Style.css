@@ -1,0 +1,105 @@
+.hall-of-fame{
+    margin:100px auto;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    width: 1360px;
+}
+.selected{
+    display: flex;
+    flex-direction: column;
+    margin:25px ;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+.selected h2{
+    margin: 10px 10px 50px 10px;
+    text-align: center;
+}
+.required-data{
+    width: 250px;
+    margin: 15px 10px;
+    padding: 10px;
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+.user-data{
+    width: 250px;
+    margin: 15px 10px;
+    padding: 10px;
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+
+.passed{
+    margin: auto;
+    background: rgb(81, 255, 0);
+    color: #000;
+    font-size: large;
+    padding: 12px 50px;
+    border-radius: 12px;
+    transition: 500ms all;
+    
+}
+.failed{
+margin: auto;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-size: large;
+padding: 12px 50px;
+border-radius: 12px;
+transition: 500ms all;
+}
+.yourresult{
+    background: #000;
+    width: 1000px;
+    padding:20px ;
+    margin: 10px auto;
+}
+.yourresult > h3{
+    margin-bottom: 10px;
+    background: rgb(29, 29, 29);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+}
+.conclusion {
+    background: rgb(0, 255, 13);
+    width: 500px;
+    padding:20px ;
+    margin: 10px auto;
+    text-align: center;
+    margin: 12px auto;
+}
+.conclusion > h3{
+   margin: 50px;
+   font-size: 50px;
+   color: #000;
+   
+    
+}
+.conclusion2 {
+    background: rgb(255, 0, 0);
+    width: 500px;
+    padding:20px ;
+    margin: 10px auto;
+    text-align: center;
+    margin: 12px auto;
+}
+.conclusion2 > h3{
+    margin: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    
+     
+ }
